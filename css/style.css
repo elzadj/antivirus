@@ -127,23 +127,24 @@ nav a p {
 }
 
 .offer section{
-	padding: 55px 0;
+	padding: 50px 0;
 	margin: 0 164px;  
 }
 
 .offer section header {
 	text-align: center;
+	height: 64px;
 	font-size: 12px;
 	color: #FFF;
 	background-image: url('../images/red_tape.png');
 	background-repeat: no-repeat;
 	background-position: center center;
-	margin-bottom: -7px;
+	margin-bottom: 25px;
 }
 
 .offer section header h2 {
 	padding-top: 5px;
-	height: 65px;
+	height: 100%;
 }
 
 .onetwothree {
@@ -157,6 +158,13 @@ nav a p {
 	margin-top: -5px;
 }
 
+.onetwothree p {
+	padding: 7px 0px 20px 0px;
+	color: #1a4d6f;
+	font-size: 18px;
+	letter-spacing: 0.05px;
+}
+
 .onetwothree>div {
 	display: block;
 	height: 42px;
@@ -167,26 +175,37 @@ nav a p {
 }
 
 .onetwothree>div:last-child {
-	margin-top: 35px;
+	margin-top: 5px;
 	background: none;
+	/*-webkit-border-radius: 0;
+	        border-radius: 0;*/
+	
 	padding: 0;
-	width: 100%;
+	/* vertical-align: middle; */
 }
 
-.livehelp img:hover {
-	margin-top: -10px;
-}
-
-.onetwothree>div:last-child img{
+.livehelp p{
+	display: block;
 	float: right;
-	margin-right: -12px;
+	/* margin: 10px; */
+	background-image: url('../images/live_help.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	/* vertical-align: baseline; */
+	text-align: center;
+	width: 150px; 
+	height: 49px;
+	padding: 7px 0 0 15px;
 }
 
-.onetwothree p {
-	padding: 7px 0px 20px 0px;
-	color: #1a4d6f;
-	font-size: 18px;
-	letter-spacing: 0.05px;
+.livehelp a{
+    /* padding: 5px; */
+	
+    font-weight: bold;
+}
+
+.livehelp p:hover {
+	margin-top: 20px;
 }
 
 .onetwothree p strong {
@@ -248,7 +267,6 @@ nav a p {
 			box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.75);
 	
 	background: rgb(252, 41, 39);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(252, 41, 39)), to(rgb(250, 20, 20)));
 	background: -webkit-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
 	background:    -moz-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
 	background:     -ms-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
@@ -257,24 +275,65 @@ nav a p {
 }	
 
 .button:hover {
-
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
-
 	-webkit-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
        -moz-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
 			box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
-	    
 	background: rgb(250, 20, 20);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(250, 20, 20)), to (rgb(252, 41, 39));
-	background: -webkit-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
-	background:    -moz-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
-	background:     -ms-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
-	background:      -o-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
-	background:         linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+	background: -webkit-linear-gradient(rgb(250, 20, 20) 100%, rgb(252, 41, 39) 0%);
+	background:    -moz-linear-gradient(rgb(250, 20, 20) 100%, rgb(252, 41, 39) 0%);
+	background:      -o-linear-gradient(rgb(250, 20, 20) 100%, rgb(252, 41, 39) 0%);
+	background:         linear-gradient(rgb(250, 20, 20) 100%, rgb(252, 41, 39) 0%);	
 }
-
-
 
 /*-----  End of Help  ------*/
 
+/*=============================
+=            Steps            =
+=============================*/
 
+.steps {
+	color: #7b7b7b;
+	background-color: #FFF;
+	padding-top: 75px;
+}
+
+.three {
+	margin-left: 135px;
+	width: 660px;
+}
+
+.three>header:first-child {
+	background-image: url('../images/resolve_background.png');
+	color: #fff;
+	height: 40px;
+	/* width: 660px; */
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Bitter', Times, serif;
+	font-weight: bold;
+	font-size: 23px;	
+}
+
+.columns {
+	margin-top: 30px;
+}
+
+.columns>div:not(:last-child) {
+	margin-right: 10px;
+}
+
+.column {
+	width: 211px;
+	float: left;
+	border: 1px solid #7b7b7b;
+	
+}
+
+/*-----  End of Steps  ------*/
+
+
+
+footer {
+	color: #FFF;
+}
