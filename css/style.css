@@ -1,0 +1,280 @@
+html, body {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+.wrapper {
+	margin: 0 auto;  
+	width: 1250px; 
+	height: 1540px;
+	background-image: url('../images/background.jpg');
+}
+
+/*===================================
+=            Top Header            =
+===================================*/
+
+
+.top {
+	margin: 0 135px -55px 135px;  
+}
+
+.logo {
+	float: left;
+	margin-left: 25px;
+	height: 107px;
+	font-family: 'Montserrat', Arial, sans-serif;
+	font-size: 32px;
+	color: #EAEEF6;
+}
+
+.call {
+	float: right;
+	font-family: 'Bitter', Times, serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-top: 13px;
+	margin-right: 16px;
+	padding-top: 20px;
+	background-image: url('../images/call_top.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 250px;
+}
+
+.call:hover {
+	margin-top: 10px;
+}
+
+.call p {
+	margin-left: 60px;
+	margin-top: 0;
+	height: 25px;
+}
+
+
+	/*==================================
+	=            Navigation            =
+	==================================*/
+
+nav {
+	
+	background: gray;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	position: relative;
+	
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	
+	background: rgb(239, 241, 248);
+	background: -webkit-linear-gradient(90deg, rgb(239, 241, 248) 0%, rgb(197, 211, 227) 100%);
+	background:    -moz-linear-gradient(90deg, rgb(239, 241, 248) 0%, rgb(197, 211, 227) 100%);
+	background:     -ms-linear-gradient(90deg, rgb(239, 241, 248) 0%, rgb(197, 211, 227) 100%);
+	background:      -o-linear-gradient(90deg, rgb(239, 241, 248) 0%, rgb(197, 211, 227) 100%);
+	background:         linear-gradient(180deg, rgb(239, 241, 248) 0%, rgb(197, 211, 227) 100%);
+}
+
+nav>a {
+	display: inline-block;
+	height: 50px;
+	padding: 0px 20px;
+	border-right: 1px solid #bdcad8;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 13px;	
+}
+
+nav>a:hover {
+	color: #ff0000;
+}
+
+nav a p {
+	margin: 1.3em auto;
+}
+
+	/*-----  End of Navigation  ------*/
+
+/*-----  End of Top Header  ------*/
+
+
+/*=============================
+=            Offer            =
+=============================*/
+
+
+.offer {
+	height: 487px;
+	background-image: url('../images/offer_background.jpg');
+	background-repeat: no-repeat;
+	font-family: 'Bitter', Times, serif;
+	text-transform: uppercase;
+}
+
+.offer section{
+	padding: 55px 0;
+	margin: 0 164px;  
+}
+
+.offer section header {
+	text-align: center;
+	font-size: 12px;
+	color: #FFF;
+	background-image: url('../images/red_tape.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: -7px;
+}
+
+.offer section header h2 {
+	padding-top: 5px;
+	height: 65px;
+}
+
+.onetwothree {
+	float: left;
+	margin-top: 5px;
+}
+
+.onetwothree img {
+	float: left;
+	margin-right: 8px;
+	margin-top: -5px;
+}
+
+.onetwothree>div {
+	display: block;
+	height: 42px;
+	width: 380px;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 40px 0 0 40px;
+	        border-radius: 40px 0 0 40px;
+}
+
+.onetwothree>div:last-child {
+	margin-top: 35px;
+	background: none;
+	padding: 0;
+	width: 100%;
+}
+
+.livehelp img:hover {
+	margin-top: -10px;
+}
+
+.onetwothree>div:last-child img{
+	float: right;
+	margin-right: -12px;
+}
+
+.onetwothree p {
+	padding: 7px 0px 20px 0px;
+	color: #1a4d6f;
+	font-size: 18px;
+	letter-spacing: 0.05px;
+}
+
+.onetwothree p strong {
+	color: #ff0000;
+}
+
+.getitnow {
+	float: right;
+} 
+
+/*-----  End of Offer  ------*/
+
+/*============================
+=            Help            =
+============================*/
+
+.help {
+	background: #464646;
+	height: 90px;
+	
+}
+
+.help h2 {
+	font-family: 'Bitter', Times, serif;
+	font-size: 24px;
+	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+	margin: 0 150px 8px 148px; 
+	padding-top: 15px; 
+	color: #e2e8f2;
+	float: left;
+}
+
+.help p {
+	margin: 0 148px; 
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 10px;
+	color: #bababa;
+	float: left;
+	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+}
+
+.button {
+	float: right;
+	margin-right: 135px;
+	margin-top: 20px;
+	color: #FFF;
+	font-size: 24px;
+	font-family: 'Bitter', Times, serif;
+	font-weight: bold;
+	padding: 5px 30px 10px 30px;
+	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+	
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+			border-radius: 5px;
+	
+	-webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.75);
+	   -moz-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.75);
+			box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.75);
+	
+	background: rgb(252, 41, 39);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(252, 41, 39)), to(rgb(250, 20, 20)));
+	background: -webkit-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
+	background:    -moz-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
+	background:     -ms-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
+	background:      -o-linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);
+	background:         linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);	
+}	
+
+.button:hover {
+
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+
+	-webkit-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
+       -moz-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
+			box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
+	    
+	background: rgb(250, 20, 20);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(250, 20, 20)), to (rgb(252, 41, 39));
+	background: -webkit-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+	background:    -moz-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+	background:     -ms-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+	background:      -o-linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+	background:         linear-gradient(rgb(250, 20, 20) 0%, rgb(252, 41, 39) 100%);
+}
+
+
+
+/*-----  End of Help  ------*/
+
+
