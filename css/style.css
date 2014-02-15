@@ -31,10 +31,9 @@ a {
 .logo {
 	float: left;
 	margin-left: 25px;
-	height: 107px;
-	font-family: 'Montserrat', Arial, sans-serif;
-	font-size: 32px;
-	color: #EAEEF6;
+	/* height: 107px; */
+	padding-top: 35px;
+	margin-bottom: 40px;
 }
 
 .call {
@@ -208,7 +207,7 @@ nav a p {
 	margin-top: 20px;
 }
 
-.onetwothree p strong {
+strong {
 	color: #ff0000;
 }
 
@@ -301,6 +300,7 @@ nav a p {
 .three {
 	margin-left: 135px;
 	width: 660px;
+	/* clear: right; */
 }
 
 .three>header:first-child {
@@ -313,6 +313,11 @@ nav a p {
 	font-family: 'Bitter', Times, serif;
 	font-weight: bold;
 	font-size: 23px;	
+	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+}
+
+.three header p {
+	padding-top: 3px;
 }
 
 .columns {
@@ -324,11 +329,63 @@ nav a p {
 }
 
 .column {
-	width: 211px;
+	width: 180px;
 	float: left;
 	border: 1px solid #7b7b7b;
+	font-family: Arial;
+	font-size: 12px;
+	padding: 15px;
+	text-align: center;
+	line-height: 20px;
+	-webkit-border-bottom-left-radius: 3px;
+	        border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	        border-bottom-right-radius: 3px;
 	
+	-webkit-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
+	   -moz-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
+            box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
 }
+
+.column header {
+	font-family: 'Bitter', Times, serif;
+	color: #1a4d6f;
+	font-size: 18px;
+	letter-spacing: 0.05px;
+	text-transform: uppercase;
+}
+
+	/*=============================
+	=            Aside            =
+	=============================*/
+
+
+aside {
+	float: right;
+	width: 280px;
+	margin-right: 135px;
+	margin-top: -90px;
+}
+
+aside header {
+	height: 32px;
+	background-image: url('../images/testimonial.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+aside h2 {
+	font-family: 'Bitter', Times, serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
+	font-weight: bold;
+	text-align: center;
+	color: #FFF;
+	padding-top: 5px;
+}
+
+	/*-----  End of Aside  ------*/
 
 /*-----  End of Steps  ------*/
 
