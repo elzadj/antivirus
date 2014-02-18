@@ -7,9 +7,8 @@ a {
 	color: #FFF;
 }
 
-.clear {
-	clear: both;
-	overflow: hidden;
+strong {
+	color: #ff0000;
 }
 
 .wrapper {
@@ -17,6 +16,28 @@ a {
 	width: 1250px; 
 	height: 1540px;
 	background-image: url('../images/background.jpg');
+	font-family: 'Bitter', Times, serif;
+}
+
+/*============================================
+=            Some helpful classes            =
+============================================*/
+
+.clear {
+	clear: both;
+	overflow: hidden;
+}
+
+.up {
+	text-transform: uppercase;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
 }
 
 /*===================================
@@ -29,18 +50,13 @@ a {
 }
 
 .logo {
-	float: left;
 	margin-left: 25px;
-	/* height: 107px; */
 	padding-top: 35px;
 	margin-bottom: 40px;
 }
 
 .call {
-	float: right;
-	font-family: 'Bitter', Times, serif;
 	font-size: 14px;
-	text-transform: uppercase;
 	color: #FFF;
 	margin-top: 13px;
 	margin-right: 16px;
@@ -69,7 +85,6 @@ a {
 nav {
 	
 	background: gray;
-	text-transform: uppercase;
 	margin-bottom: 30px;
 	position: relative;
 	
@@ -91,7 +106,6 @@ nav>a {
 	padding: 0px 20px;
 	border-right: 1px solid #bdcad8;
 	color: #000;
-	text-decoration: none;
 	font-weight: bold;
 	display: inline-block;
 	vertical-align: middle;
@@ -121,8 +135,6 @@ nav a p {
 	height: 487px;
 	background-image: url('../images/offer_background.jpg');
 	background-repeat: no-repeat;
-	font-family: 'Bitter', Times, serif;
-	text-transform: uppercase;
 }
 
 .offer section{
@@ -147,7 +159,6 @@ nav a p {
 }
 
 .onetwothree {
-	float: left;
 	margin-top: 5px;
 }
 
@@ -176,21 +187,14 @@ nav a p {
 .onetwothree>div:last-child {
 	margin-top: 5px;
 	background: none;
-	/*-webkit-border-radius: 0;
-	        border-radius: 0;*/
-	
 	padding: 0;
-	/* vertical-align: middle; */
 }
 
 .livehelp p{
 	display: block;
-	float: right;
-	/* margin: 10px; */
 	background-image: url('../images/live_help.png');
 	background-repeat: no-repeat;
 	background-position: top left;
-	/* vertical-align: baseline; */
 	text-align: center;
 	width: 150px; 
 	height: 49px;
@@ -198,8 +202,6 @@ nav a p {
 }
 
 .livehelp a{
-    /* padding: 5px; */
-	
     font-weight: bold;
 }
 
@@ -207,52 +209,39 @@ nav a p {
 	margin-top: 20px;
 }
 
-strong {
-	color: #ff0000;
-}
-
-.getitnow {
-	float: right;
-} 
-
 /*-----  End of Offer  ------*/
 
 /*============================
 =            Help            =
 ============================*/
 
-.help {
+#help {
 	background: #464646;
 	height: 90px;
 	
 }
 
-.help h2 {
-	font-family: 'Bitter', Times, serif;
+#help h2 {
 	font-size: 24px;
 	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
 	margin: 0 150px 8px 148px; 
 	padding-top: 15px; 
 	color: #e2e8f2;
-	float: left;
 }
 
-.help p {
+#help p {
 	margin: 0 148px; 
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 10px;
 	color: #bababa;
-	float: left;
 	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
 }
 
-.button {
-	float: right;
+.get_button {
 	margin-right: 135px;
 	margin-top: 20px;
 	color: #FFF;
 	font-size: 24px;
-	font-family: 'Bitter', Times, serif;
 	font-weight: bold;
 	padding: 5px 30px 10px 30px;
 	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
@@ -273,7 +262,7 @@ strong {
 	background:         linear-gradient(rgb(252, 41, 39) 0%, rgb(250, 20, 20) 100%);	
 }	
 
-.button:hover {
+.get_button:hover {
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 	-webkit-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
        -moz-box-shadow: 0px 2px 0px rgba(50, 50, 50, 1);
@@ -300,17 +289,13 @@ strong {
 .three {
 	margin-left: 135px;
 	width: 660px;
-	/* clear: right; */
 }
 
 .three>header:first-child {
 	background-image: url('../images/resolve_background.png');
 	color: #fff;
 	height: 40px;
-	/* width: 660px; */
-	text-transform: uppercase;
 	text-align: center;
-	font-family: 'Bitter', Times, serif;
 	font-weight: bold;
 	font-size: 23px;	
 	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
@@ -337,14 +322,6 @@ strong {
 	padding: 15px;
 	text-align: center;
 	line-height: 20px;
-	/*-webkit-border-bottom-left-radius: 3px;
-	        border-bottom-left-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	        border-bottom-right-radius: 3px;
-	
-	-webkit-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-	   -moz-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-            box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);*/
 }
 
 .column header {
@@ -376,7 +353,6 @@ aside header {
 }
 
 aside h2 {
-	font-family: 'Bitter', Times, serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 0px rgba(30, 30, 30, 0.8);
@@ -390,31 +366,11 @@ aside h2 {
 	border: 1px solid #7b7b7b;
 	width: 300px;
 	margin-bottom: 75px;
-	
-	/*-webkit-border-bottom-left-radius: 3px;
-	        border-bottom-left-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	        border-bottom-right-radius: 3px;
-	
-	-webkit-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-	   -moz-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-            box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);*/
 }
 
 .testimonial tr {
 	height: 90px;
 	width: 100%;
-}
-
-.read_more {
-	/*-webkit-border-bottom-left-radius: 3px;
-	        border-bottom-left-radius: 3px;
-	-webkit-border-bottom-right-radius: 3px;
-	        border-bottom-right-radius: 3px;
-	
-	-webkit-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-	   -moz-box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);
-            box-shadow: inset 0px -9px 12px -3px rgba(184,184,184,1);*/
 }
 
 .number {
@@ -430,17 +386,14 @@ aside h2 {
 	font-family: Arial;
 	font-size: 12px;
 	line-height: 1.5;
-	/* padding-top: 5px; */
 	padding: 0px 15px;
 	border: 1px solid #7b7b7b;
-	/* margin-top: 10px; */
 	text-align: justify;
 }
 
 .row_content a {
 	margin-top: 20px;
 	margin-bottom: 15px;
-	font-family: ;'Bitter', Times, serif;
 	font-size: 14px;
 	font-weight: bold;
 	color: red;
@@ -455,15 +408,20 @@ aside h2 {
 =            Footer            =
 ==============================*/
 
-footer {
-	
-}
-
 .links {
 	margin-top: 30px;
 	margin-left: 135px;
 	width: 700px;
 	color: #a2a2a3;
+	float: left;
+}
+
+.links a {
+	color: #a2a2a3;
+}
+
+.links img {
+	padding: 0px 15px 0px 5px;
 }
 
 .links span {
@@ -471,8 +429,7 @@ footer {
 }
 
 .links tr {
-	font-family: ;'Bitter', Times, serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: bold;
 	text-shadow: 2px 1px 0px rgba(30, 30, 30, 1);
 	height: 35px;
@@ -486,5 +443,34 @@ footer {
 
 .full {
 	border-bottom: 2px dashed #6a6a6c;
-	padding: 0px;
+	/* padding: 0px; */
+}
+
+#contacts {
+	width: 350px;
+	margin-top: 70px;
+	float: right;
+	font-size: 18px;
+	color: #828282;
+}
+
+#contacts p {
+	margin: 5px 0px;
+}
+
+#phone {
+	font-weight: bold;
+	color: #FFF;
+}
+
+#copyright {
+	height: 45px;
+	width: 100%;
+	text-align: center;
+	color: #4b5566;
+	background-color: #22272f;
+}
+
+#copyright p {
+	padding-top: 12px;
 }
